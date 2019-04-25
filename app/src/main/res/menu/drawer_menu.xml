@@ -4,6 +4,9 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_splash"
+            android:icon="@drawable/ic_share"
+            android:title="Splash Screen"/>
         <item android:id="@+id/nav_wallet"
             android:icon="@drawable/ic_wallet"
             android:title="Wallet"/>
@@ -19,15 +22,9 @@
             android:title="Settings"/>
     </group>
 
-<item android:title="Wallet Configuration">
+<item android:title="Communicate">
 
     <menu>
-        <item android:id="@+id/nav_create"
-            android:icon="@drawable/ic_add"
-            android:title="Add New Wallet"/>
-        <item android:id="@+id/nav_delete"
-            android:icon="@drawable/ic_delete"
-            android:title="Delete Existing Wallet"/>
         <item android:id="@+id/nav_share"
             android:icon="@drawable/ic_share"
             android:title="Share"/>
