@@ -81,6 +81,10 @@ public class CoinListActivity extends AppCompatActivity implements NavigationVie
         return true;
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return super.onOptionsItemSelected(item);
+    }
 
     @Override
     public void onBackPressed() {
